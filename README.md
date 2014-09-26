@@ -17,17 +17,18 @@ These features were requested and analyzed according to their importance. The si
   * Message time stamp
   * Image attachment
 * Message input textbox and submit button
-* Delete message
-* Edit message
+
 
 ### Less Important
 
-* Text decoration for messages
 * Author's avatar
-* Message favorite button
 * Search
 * Expand and show Twitter links
 
 ### Discard
 
 * Multiple rooms/channels
+* Delete message
+* Edit message
+* Text decoration for messages
+* Message favorite button
