@@ -28,9 +28,9 @@ h3 {
 aside {
 	background-color: #383d40;
 	color: #fff;
-	float: left;
+	float: right;
 	overflow: scroll;
-	width: 300px;
+	width: 400px;
 		height: 600px;
 }
 
@@ -53,13 +53,13 @@ a {
 }
 
 aside a {
-	background-color: #42474a;
+	background: #42474a url("http://api.adorable.io/avatar/60/1.png") no-repeat;
 	border: solid #888;
-	border-width: 0 0 1px 5px;
+	border-width: 0 0 0 5px;
 	color: #fff;
 	display: block;
 	line-height: 60px;
-	padding-left: 20px;
+	padding-left: 80px;
 }
 
 form {
@@ -73,7 +73,7 @@ textarea {
 	float: right;
 	margin: 20px 0 0;
 	padding: 10px;
-	width: 758px;
+	width: 658px;
 		height: 40px;
 }
 
@@ -83,7 +83,7 @@ input#search {
 	border-bottom: 1px solid #95a5a6;
 	padding: 10px;
 	position: fixed;
-	width: 880px;
+	width: 780px;
 		height: 20px;
 	z-index: 1;
 }
@@ -92,7 +92,7 @@ input#send {
 	box-shadow: none;
 	float: right;
 	outline: 0;
-	width: 780px;
+	width: 680px;
 		height: 40px;
 }
 
@@ -120,8 +120,8 @@ input.active {
 }
 
 #main {
-	float: right;
-	width: 900px;
+	float: left;
+	width: 800px;
 		height: 600px;
 }
 
@@ -130,14 +130,13 @@ input.active {
 .post {
 	background-color: #fff;
 	border: solid #888;
-	border-width: 0 0 1px 5px;
+	border-width: 0 0 0 5px;
 	padding-left: 10px;
 	position: relative;
-	 top: 41px;
+		top: 41px;
 }
 
 .post header {
-	border-bottom: 1px solid #abb7b7;
 	height: 40px;
 	line-height: 40px;
 	margin-left: 80px;
