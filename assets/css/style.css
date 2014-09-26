@@ -1,0 +1,182 @@
+@import url("meyer-reset.css");
+@import url("normalize.css");
+@import url("http://fonts.googleapis.com/css?family=Oxygen:300,400,700");
+
+/* Elements */
+
+body, header, h1, h2, h3, h4, h5, h6, p, blockquote, a, form, textarea {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Oxygen", "Century Gothic", sans-serif;
+	font-weight: 300;
+}
+
+h1, h2 {
+	font-weight: 400;
+}
+
+h1, aside h2 {
+	margin-bottom: 10px;
+}
+
+h3 {
+}
+
+aside {
+	background-color: #383d40;
+	color: #fff;
+	float: left;
+	overflow: scroll;
+	width: 300px;
+		height: 600px;
+}
+
+aside header {
+	padding: 20px;
+}
+
+aside h2 {
+	font-size: 1.5em;
+}
+
+blockquote {
+	margin-left: 80px;
+	line-height: 1.25;
+	padding: 20px 20px 20px 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+aside a {
+	background-color: #42474a;
+	border: solid #888;
+	border-width: 0 0 1px 5px;
+	color: #fff;
+	display: block;
+	line-height: 60px;
+	padding-left: 20px;
+}
+
+form {
+	background-color: #ecf0f1;
+	border-top: 1px solid #2c3e50;
+	height: 119px;
+	padding: 0 20px 20px 20px;
+}
+
+textarea {
+	float: right;
+	margin: 20px 0 0;
+	padding: 10px;
+	width: 758px;
+		height: 40px;
+}
+
+input#search {
+	background: #fff url("../images/search.png") no-repeat right;
+	background-size: 40px;
+	border-bottom: 1px solid #95a5a6;
+	padding: 10px;
+	position: fixed;
+	width: 880px;
+		height: 20px;
+	z-index: 1;
+}
+
+input#send {
+	box-shadow: none;
+	float: right;
+	outline: 0;
+	width: 780px;
+		height: 40px;
+}
+
+input {
+	border: 0;
+	outline: 0;
+}
+
+input.active {
+	background-color: #2ecc71;
+	border-style: none;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+/* ID's */
+
+#container {
+	border: 1px solid #95a5a6;
+	margin: 30px auto;
+	width: 1200px;
+		height: 600px;
+}
+
+#main {
+	float: right;
+	width: 900px;
+		height: 600px;
+}
+
+/* Classes */
+
+.post {
+	background-color: #fff;
+	border: solid #888;
+	border-width: 0 0 1px 5px;
+	padding-left: 10px;
+	position: relative;
+	 top: 41px;
+}
+
+.post header {
+	border-bottom: 1px solid #abb7b7;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 80px;
+	padding-right: 20px;
+}
+
+.post h2 {
+	color: #666;
+	float: left;
+}
+
+.post h3 {
+	color: #999;
+	float: right;
+	font-size: .75em;
+	text-align: right;
+}
+
+.post.active, li.active a {
+	border-left: 5px solid #2ecc71;
+}
+
+.avatar {
+	border-radius: 50%;
+	float: left;
+	margin-top: 20px;
+}
+
+.attachment {
+	background: url("../images/attachment.png") no-repeat 0 5px;
+	background-size: 40px;
+	border-top: 1px dashed #ccc;
+	font-size: .8em;
+	height: 30px;
+	margin-top: 20px;
+	padding: 10px 0 0 50px;
+}
+
+.stream {
+	height: 460px;
+	overflow: scroll;
+}
